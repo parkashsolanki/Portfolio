@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #00ffc3;
+}
+
+.header-container p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-container img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio h2 {
+    color: #00ffc3;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    background-color: #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#projects .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects .project-item {
+    background-color: #222;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+#projects .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #00ffc3;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#contact p + p {
+    margin-top: 10px;
+}
